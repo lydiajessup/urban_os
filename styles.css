@@ -61,7 +61,12 @@ a:hover {
 
 /*** BLAH ***/
 
-
+@media (max-width: 767.98px) {
+  .main {
+    max-width: none;
+    padding: 20% 10%;
+  }
+}
 
 .home{
   background: #E0E487;
