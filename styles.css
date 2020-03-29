@@ -29,7 +29,8 @@ body {
   width: 100%;
   margin: 0;
   word-break: break-word;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  /*** font-family: Futura, "Trebuchet MS", Arial, sans-serif; ***/
+  font-family: 'Titillium Web';
   font-size: 20px;
   font-style: normal;
   font-variant: normal;
@@ -40,6 +41,8 @@ img {
     max-width:50%;
     height:auto;
     align-content: center;
+    display: block;
+
 }
 
 /*** LINKS ***/
@@ -77,7 +80,9 @@ a:hover {
   background: #518D6B;
   border: dotted;
   padding: 10px;
+
 }
+
 
 /* specific to text blocks */
 .text{
@@ -85,7 +90,8 @@ a:hover {
   border: solid;
   padding: 5px;
   margin: 20px;
-  width: 50%;
+  width: 90%;
+
 }
 
 .title{
