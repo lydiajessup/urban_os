@@ -29,8 +29,8 @@ body {
   width: 100%;
   margin: 0;
   word-break: break-word;
-  /*** font-family: Futura, "Trebuchet MS", Arial, sans-serif; ***/
-  font-family: 'Titillium Web';
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  /*** font-family: 'Titillium Web'; ***/
   font-size: 20px;
   font-style: normal;
   font-variant: normal;
@@ -98,4 +98,98 @@ a:hover {
   background-color: #D35D80;
   border: solid;
   padding: 5px;
+}
+
+
+
+/*** For specific images ***/
+
+.satellite1{
+  position: fixed;
+  width: 100%;
+  display: block;
+  left: -5%;
+  top: 10px;
+  max-width: 20%;
+  z-index: -1;
+}
+
+.satellite2{
+  position: fixed;
+  width: 100%;
+  display: block;
+  left: -5%;
+  top: 80%;
+  max-width: 40%;
+  z-index: -1;
+}
+
+.satellite3{
+  position: fixed;
+  width: 100%;
+  display: block;
+  left: 0%;
+  bottom: -5%;
+  max-width: 40%;
+  z-index: -1;
+}
+
+.satellite4{
+  position: fixed;
+  width: 100%;
+  display: block;
+  right: 0%;
+  bottom: -5%;
+  max-width: 20%;
+  z-index: -1;
+}
+
+.satellite5{
+  position: fixed;
+  width: 100%;
+  display: block;
+  right: 25%;
+  bottom: 0%;
+  max-width: 25%;
+  z-index: -1;
+}
+
+.satellite6{
+  position: fixed;
+  width: 100%;
+  display: block;
+  right: -5%;
+  top: 30%;
+  max-width: 40%;
+  z-index: -1;
+}
+
+.satellite7{
+  position: fixed;
+  width: 100%;
+  display: block;
+  right: -1%;
+  top: -1%;
+  max-width: 40%;
+  z-index: -1;
+}
+
+.satellite8{
+  position: fixed;
+  width: 100%;
+  display: block;
+  left: 20%;
+  top: -5%;
+  max-width: 40%;
+  z-index: -1;
+}
+
+.satellite9{
+  position: fixed;
+  width: 100%;
+  display: block;
+  left: 30%;
+  top: 45%;
+  max-width: 30%;
+  z-index: -1;
 }
