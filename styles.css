@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  background: #E0E487;
+  background: #ECA29F;
   color: black;
   padding: 20px;
   padding-bottom: 10vh;
@@ -42,24 +42,29 @@ img {
     height:auto;
     align-content: center;
     display: block;
-
 }
+
+p{
+  background-color: white;
+  padding: 10px;
+}
+
 
 /*** LINKS ***/
 
 /* unvisited link */
 a:link {
-  color: black;
+  color: #DE706E;
 }
 
 /* visited */
 a:visited {
-  color: black;
+  color: #DE706E;
 }
 
 /* hovering */
 a:hover {
-  color: #ECA29F;
+  color: #56909D;
 }
 
 /*** BLAH ***/
@@ -83,6 +88,33 @@ a:hover {
 
 }
 
+/*** Contents/Sections ***/
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 90%;
+}
+
+.section{
+  background-color: #ECA29F;
+  padding: 10px;
+  font-size: 12px;
+  color: #518D6B;
+  border-color: white;
+  border-style: solid;
+  transform: rotate(20deg);
+}
+
+.about{
+  width: 250px;
+
+}
+
 
 /* specific to text blocks */
 .text{
@@ -99,6 +131,7 @@ a:hover {
   border: solid;
   padding: 5px;
 }
+
 
 
 
