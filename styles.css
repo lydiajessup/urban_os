@@ -44,9 +44,9 @@ img {
     display: block;
 }
 
-p{
-  background-color: white;
-  padding: 10px;
+p {
+    background-color: white;
+    padding: 10px;
 }
 
 
@@ -136,6 +136,43 @@ a:hover {
 
 
 /*** For specific images ***/
+
+.casestudy{
+  position: absolute;
+  max-width: 20%;
+}
+
+.linknyc{
+  width: 100%;
+  display: block;
+  top: 60%;
+  right: 30%;
+  z-index: -1;
+  max-width: 12%;
+}
+
+.raingarden{
+  width: 100%;
+  display: block;
+  top: 10%;
+  right: 15%;
+  z-index: -1;
+
+}
+
+
+.bigbelly{
+  width: 100%;
+  display: block;
+  top: 10%;
+  left: 20%;
+  z-index: -1;
+  max-width: 15%;
+
+}
+
+
+
 
 .satellite1{
   position: fixed;
