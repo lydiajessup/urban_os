@@ -5,13 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="scripts/interaction.js"></script>
   </head>
 
   <body class="home">
 
-    <h1>Urban_OS</h1>
+    <div class="title">
+      <button onclick="Toggle()">Urban_OS</button>
+    </div>
 
-    <div class="about">
+    <div id="about" class="about about-style">
       <p>
         Urban_OS is an experimental and design fiction research project started with the goal of developing new theories and approaches for the “smart city.”
       </p>
@@ -21,10 +24,10 @@
       <p>
         It presents three case studies that critically explore and present new approaches to computing in urban space through augmented reality technologies.
       </p>
-    <div>
+    </div>
 
 
-<!--satellite images-->
+    <!--satellite images-->
 
     <img class="satellite1" src="images/bigbelly.png"/>
     <img class="satellite2" src="images/linknyc.png"/>
@@ -39,26 +42,34 @@
 
 
 
-    <!--node images-->
+    <!--node images + case studies-->
+    <div class="linknyc casestudy">
+      <p class="caselink">
+        <!--<a class="pagelink" href="pages/casestudy_one.html">Case Study 1: Hardware</a>-->
+        Case Study 1: Hardware
+      </p>
+      <img class="casestudy" src="images/linknode.png"/>
+    </div>
 
-    <img class="linknyc casestudy" src="images/linknode.png"/>
-    <img class="raingarden casestudy" src="images/treenode.png"/>
-    <img class="bigbelly casestudy" src="images/bigbellynode.png"/>
+    <div class="raingarden casestudy">
+      <p class="caselink">
+        <!--<a class="pagelink" href="pages/casestudy_two.html">Case Study 2: Interface</a>-->
+        Case Study 2: Interface
+      </p>
+      <img class="casestudy" src="images/treenode.png"/>
+    </div>
 
+    <div class="bigbelly casestudy">
+      <p class="caselink">
+        <!--<a class="pagelink" href="pages/casestudy_three.html">Case Study 3: Memory/Storage</a>-->
+        Case Study 3: Memory
+      </p>
+      <img class="casestudy" src="images/bigbellynode.png"/>
+    </div>
 
 
 
 <!--links to other pages-->
-    <p>
-      <a class="pagelink" href="pages/casestudy_one.html">Case Study 1: Hardware</a>
-    </p>
-    <p>
-      <a class="pagelink" href="pages/casestudy_two.html">Case Study 2: Interface</a>
-    </p>
-    <p>
-      <a class="pagelink" href="pages/casestudy_three.html">Case Study 3: Memory/Storage</a>
-    </p>
-
 
     <div class = "flex-container">
       <div class="section research">

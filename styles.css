@@ -49,6 +49,19 @@ p {
     padding: 10px;
 }
 
+button {
+  background-color: rgba(255, 255, 255,0); /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 2.5em;
+  outline: none;
+}
+
 
 /*** LINKS ***/
 
@@ -88,6 +101,15 @@ a:hover {
 
 }
 
+/* DYNAMIC */
+
+.about-style{
+  display: none;
+
+}
+
+
+
 /*** Contents/Sections ***/
 
 .flex-container{
@@ -97,7 +119,8 @@ a:hover {
   align-items: center;
   width: 100%;
   position: absolute;
-  top: 90%;
+  max-width: 100%;
+  top: 1000px;
 }
 
 .section{
@@ -132,14 +155,29 @@ a:hover {
   padding: 5px;
 }
 
+.caselink{
+  max-width: 35%;
+  text-align: center;
+  color: black;
+
+}
+
+.title{
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  max-width: 20%;
+}
 
 
 
-/*** For specific images ***/
+
+/*** For case studies ***/
 
 .casestudy{
   position: absolute;
-  max-width: 20%;
+  max-width: 40%;
+
+
 }
 
 .linknyc{
@@ -147,17 +185,16 @@ a:hover {
   display: block;
   top: 60%;
   right: 30%;
+  max-width: 30%;
   z-index: -1;
-  max-width: 12%;
 }
 
 .raingarden{
   width: 100%;
   display: block;
   top: 10%;
-  right: 15%;
+  right: -10%;
   z-index: -1;
-
 }
 
 
@@ -167,11 +204,12 @@ a:hover {
   top: 10%;
   left: 20%;
   z-index: -1;
-  max-width: 15%;
+
 
 }
 
 
+/*** For specific photos ***/
 
 
 .satellite1{
