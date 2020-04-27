@@ -207,7 +207,17 @@ a:hover {
 .casestudy{
   position: absolute;
   max-width: 40%;
+  padding-top: 100px;
+}
 
+.label{
+  position: relative;
+  padding-left: 100px;
+}
+
+.outline{
+  position: relative;
+  max-width: 50%;
 }
 
 .linknyc{
@@ -238,6 +248,18 @@ a:hover {
 
 }
 
+
+/*** For specific 3d models ***/
+
+.threedtitle{
+  position: fixed;
+  width: 100%;
+  display: block;
+  left: 0%;
+  top: -30px;
+  max-width: 25%;
+  z-index: -1;
+}
 
 /*** For specific photos ***/
 
