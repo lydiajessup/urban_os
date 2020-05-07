@@ -22,7 +22,8 @@ html {
 }
 
 body {
-  background: #ECA29F;
+  /*background: #ECA29F;*/
+  background: rgba(219, 223, 114, .8);
   color: black;
   padding: 20px;
   padding-bottom: 10vh;
@@ -38,6 +39,11 @@ body {
   font-weight: 400;
 }
 
+h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+
 img {
     max-width:50%;
     height:auto;
@@ -46,7 +52,7 @@ img {
 }
 
 p {
-    background-color: white;
+    background: rgba(255, 255, 255, .8);
     padding: 10px;
 }
 
@@ -63,6 +69,7 @@ button {
   font-size: 2.5em;
   outline: none;
   z-index: 1;
+
 }
 
 
@@ -106,16 +113,23 @@ a:hover {
 }
 
 #info-blocks{
-  background: #518D6B;
-  border: dotted;
-  padding: 10px;
 
+  padding: 10px;
+  align-items: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 15px;
+}
+
+.block{
+  align-items: center;
+  text-align: left;
 }
 
 /* DYNAMIC */
 
 .about-style{
   display: none;
+
 }
 
 
@@ -154,18 +168,44 @@ a:hover {
 /* specific to text blocks */
 .text{
   background: #ECA29F;
-  border: solid;
-  padding: 5px;
-  margin: 20px;
+  padding: 20px;
+  margin: 10px;
   width: 90%;
+  max-width: 50%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 50px;
+  float: right;
+}
+
+.title{
+  background-color: rgba(255, 255, 255, 0);
+  color: #DE706E;
+  border: dashed;
+  border-color: white;
+  font-style: bold;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 30px;
+  text-align: center;
+  padding-right: 100px;
+  width: 40%;
+  display: inline-block;
+  margin-bottom: 20px;
+
 
 }
 
+
+
+
+/*
 .title{
   background-color: #D35D80;
   border: solid;
   padding: 5px;
 }
+*/
 
 .caselink{
   max-width: 35%;
@@ -199,12 +239,6 @@ a:hover {
   border: solid;
   border-width: 4px;
   border-color: #518D6B;
-}
-
-.title{
-  background-color: rgba(255, 255, 255, 0);
-  border: none;
-  max-width: 20%;
 }
 
 
