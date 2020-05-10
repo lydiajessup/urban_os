@@ -31,7 +31,8 @@ function createInfo(infoData) {
     if (infoData[i].image && infoData[i].image) {
       const image = document.createElement("img");
       image.className = "image";
-      image.src = infoData[i].image.square.url;
+      //image.src = infoData[i].image.square.url;
+      image.src = infoData[i].image.display.url;
       block.appendChild(image);
     }
     //create title

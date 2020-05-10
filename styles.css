@@ -39,6 +39,31 @@ body {
   font-weight: 400;
 }
 
+.casestudy_one{
+  background:#D35D80;
+}
+
+.casestudy_one .title{
+  color: #E0E487;
+}
+
+.casestudy_two{
+  background:#56909D;
+}
+
+.casestudy_two .title{
+  color: #E0E487;
+}
+
+.casestudy_three{
+  background:#518D6B;
+}
+
+.casestudy_three .title{
+  color: #E0E487;
+}
+
+
 h1{
   font-size: 40px;
   font-weight: 600;
@@ -47,9 +72,16 @@ h1{
 img {
     height:auto;
     align-content: center;
-    max-width: 30%;
+    /*max-width: 30%;*/
     padding-left: 40px;
     margin: 20px;
+
+}
+
+.image{
+
+  max-height: 100%;
+  max-width: 100%;
 
 }
 
