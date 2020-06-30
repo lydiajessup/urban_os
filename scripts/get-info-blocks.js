@@ -29,6 +29,7 @@ function createInfo(infoData) {
 
     //create image
     if (infoData[i].image && infoData[i].image) {
+      block.className += "block-image";
       const image = document.createElement("img");
       image.className = "image";
       //image.src = infoData[i].image.square.url;
@@ -37,6 +38,7 @@ function createInfo(infoData) {
     }
     //create title
     if (infoData[i].title) {
+      block.className += "block-title";
       const title = document.createElement("div");
       title.className = "title";
       title.innerHTML = infoData[i].title;
